@@ -6,6 +6,7 @@
 	import { setContext } from '../game/context';
 
 	import messagesMap from '../i18n/messagesMap';
+	import InfiniteGame from '../test/InfiniteGame.svelte';
 
 	type Props = { children: Snippet };
 
@@ -22,12 +23,12 @@
 <GlobalStyle>
 	<Authenticate>
 		<LoadI18n {messagesMap}>
-			<Game />
+			<InfiniteGame />
 		</LoadI18n>
 	</Authenticate>
 </GlobalStyle>
 
-<LoaderStakeEngine src={loaderUrlStakeEngine} oncomplete={() => (showYourLoader = true)} />
+<LoaderStakeEngine src={loaderUrlStakeEngine} oncomplete={() => (showYourLoader = false)} />
 
 {#if showYourLoader}
 	<LoaderExample src={loaderUrl} />
