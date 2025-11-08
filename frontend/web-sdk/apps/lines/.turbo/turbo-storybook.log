@@ -1,0 +1,92 @@
+
+> lines@0.0.0 storybook F:\circusMaximus\frontend\web-sdk\apps\lines
+> cross-env PUBLIC_CHROMATIC=true storybook dev -p 6001 public
+
+[1mstorybook v9.0.15[22m[0m
+[0m
+You are currently using Storybook [1m9.0.15[22m but you have packages which are incompatible with it:
+
+- @storybook/addon-svelte-csf@5.0.5 which depends on ^0.1.13
+
+Please consider updating your packages or contacting the maintainers for compatibility details.
+
+For more on Storybook 9 compatibility, see the linked GitHub issue:
+https://github.com/storybookjs/storybook/issues/30944
+info => Serving static files from [36m./.\static[39m at [36m/[39m
+info => Starting manager..
+No story files found for the specified pattern: [34msrc\**\*.mdx[39m
+CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
+CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
+info => Starting preview..
+The following Vite config options will be overridden by SvelteKit:
+  - base
+╭─────────────────────────────────────────────────────────────────────╮
+│                                                                     │
+│   [38;2;162;224;94mStorybook [1m9.0.15[22m for [1msveltekit[22m started[39m                            │
+│   [90m[4m856 ms[24m for manager and [4m6.39 s[24m for preview[39m                         │
+│                                                                     │
+│   Local:            [36mhttp://localhost:6001/[39m                          │
+│   On your network:  [36mhttp://192.168.1.20:6001/[39m                       │
+│                                                                     │
+│   [38;2;243;173;56mA new version ([1m10.0.4[22m) is available![39m                              │
+│                                                                     │
+│   [90mUpgrade now:[39m [38;2;162;224;94mnpx storybook@latest upgrade[39m                         │
+│                                                                     │
+│   [90mRead full changelog:[39m                                              │
+│   [90m[4mhttps://github.com/storybookjs/storybook/blob/main/CHANGELOG.md[24m[39m   │
+│                                                                     │
+╰─────────────────────────────────────────────────────────────────────╯
+CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
+CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
+23:44:19 [vite-plugin-svelte] src/test/InfiniteGame.svelte:721:12 Self-closing HTML tags for non-void elements are ambiguous — use `<div ...></div>` rather than `<div ... />`
+https://svelte.dev/e/element_invalid_self_closing_tag
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:749:12 Self-closing HTML tags for non-void elements are ambiguous — use `<div ...></div>` rather than `<div ... />`
+https://svelte.dev/e/element_invalid_self_closing_tag
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:782:34 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:30:6 `confetti` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:31:6 `fw` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:800:2 Unused CSS selector ".hud-layer"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:801:2 Unused CSS selector ".game-root"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:846:2 Unused CSS selector ".notepad-wrap"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:848:2 Unused CSS selector ".toast-layer"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:854:2 Unused CSS selector ".left"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:855:2 Unused CSS selector ".center"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:867:2 Unused CSS selector ".hamburger"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:871:2 Unused CSS selector ".hamburger span"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:900:2 Unused CSS selector ".loader-pct"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] src/test/InfiniteGame.svelte:902:2 Unused CSS selector ".spinner"
+https://svelte.dev/e/css_unused_selector
+23:44:20 [vite-plugin-svelte] F:/circusMaximus/frontend/web-sdk/packages/components-ui-html/src/components/Modals.svelte:44:2 No scopable elements found in template. If you're using global styles in the style tag, you should move it into an external stylesheet file and import it in JS. See https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/faq.md#where-should-i-put-my-global-styles.
+23:44:23 [vite-plugin-svelte] src/test/DifficultyPicker.svelte:27:2 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+https://svelte.dev/e/a11y_consider_explicit_label
+23:44:23 [vite-plugin-svelte] src/test/DifficultyPicker.svelte:43:2 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+https://svelte.dev/e/a11y_consider_explicit_label
+23:44:23 [vite-plugin-svelte] src/test/DifficultyPicker.svelte:62:2 Buttons and links should either contain text or have an `aria-label` or `aria-labelledby` attribute
+https://svelte.dev/e/a11y_consider_explicit_label
+23:44:25 [vite-plugin-svelte] src/test/PlayButton.svelte:29:2 Redundant role 'button'
+https://svelte.dev/e/a11y_no_redundant_roles
+23:44:28 [vite-plugin-svelte] src/test/AutoplayButton.svelte:95:2 Visible, non-interactive elements with a click event must be accompanied by a keyboard event handler. Consider whether an interactive element such as `<button type="button">` or `<a>` might be more appropriate
+https://svelte.dev/e/a11y_click_events_have_key_events
+23:44:28 [vite-plugin-svelte] src/test/AutoplayButton.svelte:95:2 `<div>` with a click handler must have an ARIA role
+https://svelte.dev/e/a11y_no_static_element_interactions
+23:44:28 [vite-plugin-svelte] src/test/AutoplayButton.svelte:9:13 Component has unused export property 'buttonLabel'. If it is for external reference only, please consider using `export const buttonLabel`
+https://svelte.dev/e/export_let_unused
+23:44:31 [vite-plugin-svelte] src/test/SideMenu.svelte:87:4 Visible, non-interactive elements with a click event must be accompanied by a keyboard event handler. Consider whether an interactive element such as `<button type="button">` or `<a>` might be more appropriate
+https://svelte.dev/e/a11y_click_events_have_key_events
+23:44:31 [vite-plugin-svelte] src/test/SideMenu.svelte:87:4 `<div>` with a click handler must have an ARIA role
+https://svelte.dev/e/a11y_no_static_element_interactions
+23:44:31 [vite-plugin-svelte] src/test/SideMenu.svelte:87:4 Self-closing HTML tags for non-void elements are ambiguous — use `<div ...></div>` rather than `<div ... />`
+https://svelte.dev/e/element_invalid_self_closing_tag
+23:44:31 [vite-plugin-svelte] src/test/SideMenu.svelte:89:4 Elements with the 'menu' interactive role must have a tabindex value

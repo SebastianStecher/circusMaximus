@@ -629,7 +629,7 @@
 
     <div
       class="track-wrap"
-      style={`--track-top:${isMobile ? 8 : 0}%; --track-height:${isMobile ? 84 : 92}%;`}
+      style={`--track-top:${isMobile ? 8 : 0}%; --track-height:${isMobile ? 84 : 105}%;`}
     >
       <div class="track-box">
         <CatmullRomTrack
